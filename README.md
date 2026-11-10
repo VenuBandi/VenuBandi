@@ -39,6 +39,26 @@ Transfer learning on 56,092 infrastructure images. ResNet50 · DenseNet121 · Ef
 <tr>
 <td width="50%" valign="top">
 
+**[Histopathologic Cancer Detection](https://github.com/VenuBandi/histopathologic-cancer-detection)**
+
+Custom CNN vs DenseNet121 on 5,000 H&E tissue patches. DenseNet121 achieves **89% accuracy and ROC-AUC 0.9625**. Full optimizer × scheduler × augmentation grid experiments.
+
+`PyTorch` `torchvision` `DenseNet121` `Kaggle`
+
+</td>
+<td width="50%" valign="top">
+
+**[Silent Signal](https://github.com/VenuBandi/silent-signal)**
+
+Real-time emergency gesture recognition — MediaPipe keypoints + Motion BiLSTM on a custom-recorded 9-class dataset. Danger F1 = 0.91, **2,563 FPS inference**.
+
+`PyTorch` `MediaPipe` `LSTM` `OpenCV`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **[FlightOps AI](https://github.com/VenuBandi/flightops-ai)**
 
 Full-stack AI application for aviation operations — multi-service architecture with data ingestion pipelines, ML decision models, and an AI assistant backend.
@@ -50,7 +70,7 @@ Full-stack AI application for aviation operations — multi-service architecture
 
 **[Jarvis Assistant](https://github.com/VenuBandi/jarvis-assistant)**
 
-Always-on personal AI for macOS. Hotkey → local whisper.cpp STT → multi-brain routing (Ollama locally · Claude · Gemini Flash) → spoken reply. Every action tier-enforced in code; R3 actions unavailable period.
+Always-on personal AI for macOS. Hotkey → local whisper.cpp STT → multi-brain routing (Ollama locally · Claude · Gemini Flash) → spoken reply. Every action tier-enforced in code.
 
 `Python` `FastAPI` `Ollama` `whisper.cpp`
 
