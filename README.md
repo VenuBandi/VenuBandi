@@ -76,6 +76,17 @@ Full-stack AI application for aviation operations — multi-service architecture
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[Jarvis Assistant](https://github.com/VenuBandi/jarvis-assistant)**
+
+Always-on personal AI for macOS. Hotkey → local whisper.cpp STT → multi-brain routing (Ollama locally · Claude · Gemini Flash) → spoken reply. Every action classified by risk tier and enforced in code — R3 actions (passwords, sudo, banking) unavailable period.
+
+`Python` `FastAPI` `Ollama` `whisper.cpp` `MediaPipe`
+
+</td>
+</tr>
 </table>
 
 ---
