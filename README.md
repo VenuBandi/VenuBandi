@@ -59,20 +59,20 @@ Real-time emergency gesture recognition — MediaPipe keypoints + Motion BiLSTM 
 <tr>
 <td width="50%" valign="top">
 
+**[Gaming Stock Prediction](https://github.com/VenuBandi/gaming-stock-prediction)**
+
+Apache Spark GBT pipeline predicting next-day close prices for 22 gaming stocks across **334,405 rows**. Test R² = 0.9629. Predictions stored in MongoDB; Gradio dashboard for live exploration.
+
+`PySpark` `Spark ML` `MongoDB` `Gradio` `yfinance`
+
+</td>
+<td width="50%" valign="top">
+
 **[FlightOps AI](https://github.com/VenuBandi/flightops-ai)**
 
 Full-stack AI application for aviation operations — multi-service architecture with data ingestion pipelines, ML decision models, and an AI assistant backend.
 
 `Python` `AI/ML` `Supabase`
-
-</td>
-<td width="50%" valign="top">
-
-**[Jarvis Assistant](https://github.com/VenuBandi/jarvis-assistant)**
-
-Always-on personal AI for macOS. Hotkey → local whisper.cpp STT → multi-brain routing (Ollama locally · Claude · Gemini Flash) → spoken reply. Every action tier-enforced in code.
-
-`Python` `FastAPI` `Ollama` `whisper.cpp`
 
 </td>
 </tr>
