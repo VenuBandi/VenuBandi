@@ -5,7 +5,7 @@
 **MS Data Science · UMBC**
 
 I build production-quality ML systems — end-to-end, from raw data to deployed models.<br>
-Computer vision · Healthcare AI · Intelligent agents
+Computer vision · Healthcare AI · Edge AI · Intelligent agents
 
 [![GitHub followers](https://img.shields.io/github/followers/VenuBandi?style=social)](https://github.com/VenuBandi)
 
@@ -21,7 +21,7 @@ Computer vision · Healthcare AI · Intelligent agents
 
 **[CDC Chronic Health Risk Model](https://github.com/VenuBandi/cdc-chronic-health-risk)**
 
-Predicts 10 chronic disease rates across **73,000+ U.S. census tracts** (R² > 0.90). Phase 2 uses a PyTorch neural network to produce a single composite risk index — visualized on a [live interactive map](https://venubandi.github.io/cdc-chronic-health-risk/).
+Predicts 10 chronic disease rates across **73,000+ U.S. census tracts** (R² 0.86–0.98). Phase 2 uses a PyTorch neural network to produce a composite risk index — visualized on a [live interactive map](https://venubandi.github.io/cdc-chronic-health-risk/).
 
 `PyTorch` `scikit-learn` `Folium` `CDC PLACES 2024`
 
@@ -70,18 +70,47 @@ Apache Spark GBT pipeline predicting next-day close prices for 22 gaming stocks 
 
 **[FlightOps AI](https://github.com/VenuBandi/flightops-ai)**
 
-Full-stack AI application for aviation operations — multi-service architecture with data ingestion pipelines, ML decision models, and an AI assistant backend.
+Real-time flight delay recovery decision support for airline operations. R7 ensemble (LGB + Neural) — **MAE 8.3 min, 0.15 ms CoreML inference**. 22 AI models across 7 providers.
 
-`Python` `AI/ML` `Supabase`
+`Python` `LightGBM` `CoreML` `FastAPI` `Supabase`
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
+
+**[Keypoints Spidy Vision](https://github.com/VenuBandi/Keypoints_spidy_vision)**
+
+Real-time human keypoint detection on NVIDIA Jetson, streamed to a live Flask dashboard. Forms the perception base for the gesture and anomaly detection systems.
+
+`Python` `OpenCV` `NVIDIA Jetson Inference` `Flask`
+
+</td>
+<td width="50%" valign="top">
+
+**[Spiderman Anomaly Detection](https://github.com/VenuBandi/spiderman-anomaly-detection)**
+
+Rule-based anomaly detection on NVIDIA Jetson — SSD-Mobilenet-v2 detects forbidden objects and crowd violations, triggering real-time alerts on a live cyberpunk dashboard.
+
+`Python` `Flask` `OpenCV` `NVIDIA Jetson Inference`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Real-Time Gesture Recognition](https://github.com/VenuBandi/real-time-gesture-recognition-system)**
+
+V1 prototype: 2-class (HELP / DANGER) gesture LSTM on MediaPipe hand keypoints. **~1,979 FPS inference.** Predecessor to Silent Signal — extended to 9 classes and full-body keypoints.
+
+`PyTorch` `MediaPipe` `LSTM` `OpenCV`
+
+</td>
+<td width="50%" valign="top" style="vertical-align: top;">
 
 **[Jarvis Assistant](https://github.com/VenuBandi/jarvis-assistant)**
 
-Always-on personal AI for macOS. Hotkey → local whisper.cpp STT → multi-brain routing (Ollama locally · Claude · Gemini Flash) → spoken reply. Every action classified by risk tier and enforced in code — R3 actions (passwords, sudo, banking) unavailable period.
+Always-on personal AI for macOS. Hotkey → local whisper.cpp STT → multi-brain routing (Ollama · Claude · Gemini Flash) → spoken reply. Every action classified by risk tier and enforced in code.
 
 `Python` `FastAPI` `Ollama` `whisper.cpp` `MediaPipe`
 
