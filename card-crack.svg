@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<g transform="translate(360,14)">
+<rect width="80" height="64" fill="#1a0e0a" rx="6"/>
+<rect x="8" y="8" width="26" height="20" fill="#2a1f1a" stroke="#3d2d26" stroke-width=".8" rx="2"/>
+<rect x="38" y="8" width="26" height="20" fill="#2a1f1a" stroke="#3d2d26" stroke-width=".8" rx="2"/>
+<rect x="8" y="34" width="26" height="20" fill="#2a1f1a" stroke="#3d2d26" stroke-width=".8" rx="2"/>
+<rect x="38" y="34" width="26" height="20" fill="#2a1f1a" stroke="#3d2d26" stroke-width=".8" rx="2"/>
+<path d="M36 10 L40 20 L34 26 L38 34 L42 42 L36 50 L40 56" stroke="#d29922" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="29" y="16" width="22" height="30" stroke="#f85149" stroke-width="1.2" fill="none" stroke-dasharray="2 1.5" rx="1"/>
+<text x="6" y="62" fill="#d29922" font-size="8" font-family="monospace" font-weight="600">92.5% acc</text>
+</g>
+<text x="16" y="29" fill="#7d8590" font-size="11.5" font-family="ui-monospace,'SF Mono',monospace">□ VenuBandi / structural-crack-detection</text>
+<text x="16" y="62" fill="#e6edf3" font-size="20" font-family="'Segoe UI',system-ui,sans-serif" font-weight="700">Crack Detection</text>
+<text x="16" y="82" fill="#7d8590" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif">EfficientNet-B0 on 56,092 infrastructure images. Benchmarked</text>
+<text x="16" y="99" fill="#7d8590" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif">vs ResNet50 &amp; DenseNet121. Tuned for maximum recall.</text>
+<rect x="16" y="115" width="111" height="19" rx="9.5" fill="#2d1f05" stroke="#5a3e0a" stroke-width=".9"/><text x="72" y="128.5" text-anchor="middle" fill="#d29922" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">92.5% accuracy</text>
+<rect x="135.0" y="115" width="98" height="19" rx="9.5" fill="#2d0d0c" stroke="#5a1a18" stroke-width=".9"/><text x="184" y="128.5" text-anchor="middle" fill="#f85149" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">0.848 recall</text>
+<rect x="241.0" y="115" width="85" height="19" rx="9.5" fill="#0d2340" stroke="#1f4a7a" stroke-width=".9"/><text x="284" y="128.5" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">56k images</text>
+<line x1="16" y1="194" x2="444" y2="194" stroke="#30363d" stroke-width="1"/>
+<circle cx="22" cy="218" r="5" fill="#3b82f6"/>
+<text x="32" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif">Python</text>
+<text x="69.8" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · PyTorch</text>
+<text x="132.8" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · EfficientNet</text>
+<text x="227.3" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · SDNET2018</text>
+<text x="444" y="222" text-anchor="end" fill="#2dd4bf" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">view repo →</text>
+</svg>
