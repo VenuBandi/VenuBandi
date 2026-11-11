@@ -1,15 +1,21 @@
 <div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+end-to-end+ML+systems;Computer+Vision+%C2%B7+Healthcare+AI+%C2%B7+Edge+AI;MS+Data+Science+%40+UMBC)](https://git.io/typing-svg)
+
 # Venu Bandi
 
-**MS Data Science · UMBC**
-
-I build production-quality ML systems — end-to-end, from raw data to deployed models.<br>
-Computer vision · Healthcare AI · Edge AI · Intelligent agents
-
 [![GitHub followers](https://img.shields.io/github/followers/VenuBandi?style=social)](https://github.com/VenuBandi)
+[![Profile views](https://komarev.com/ghpvc/?username=VenuBandi&color=3B82F6&style=flat)](https://github.com/VenuBandi)
 
 </div>
+
+---
+
+## Currently Building
+
+**[FlightOps AI](https://github.com/VenuBandi/flightops-ai)** — Real-time flight delay recovery decision support for airline operations.
+
+> R7 ensemble (LGB + Neural): **MAE 8.3 min · 0.15 ms CoreML inference** · 22 AI models across 7 providers · F9, UA, WN · 2023–2025 BTS data · Conformal prediction intervals · iOS app
 
 ---
 
@@ -19,100 +25,90 @@ Computer vision · Healthcare AI · Edge AI · Intelligent agents
 <tr>
 <td width="50%" valign="top">
 
-**[CDC Chronic Health Risk Model](https://github.com/VenuBandi/cdc-chronic-health-risk)**
+### [CDC Chronic Health Risk Model](https://github.com/VenuBandi/cdc-chronic-health-risk)
+**R² 0.86 – 0.98 across 10 diseases · 73,000+ census tracts**
 
-Predicts 10 chronic disease rates across **73,000+ U.S. census tracts** (R² 0.86–0.98). Phase 2 uses a PyTorch neural network to produce a composite risk index — visualized on a [live interactive map](https://venubandi.github.io/cdc-chronic-health-risk/).
+Predicts chronic disease rates from CDC PLACES 2024. Phase 2 compresses 10 predictions into a single Chronic Health Risk Index via PyTorch neural network.
+
+**→ [Live Interactive Map](https://venubandi.github.io/cdc-chronic-health-risk/)**
 
 `PyTorch` `scikit-learn` `Folium` `CDC PLACES 2024`
 
 </td>
 <td width="50%" valign="top">
 
-**[Structural Crack Detection](https://github.com/VenuBandi/structural-crack-detection)**
+### [Structural Crack Detection](https://github.com/VenuBandi/structural-crack-detection)
+**92.5% accuracy · 0.848 recall · 56,092 images**
 
-Transfer learning on 56,092 infrastructure images. ResNet50 · DenseNet121 · EfficientNet-B0 benchmarked on SDNET2018. EfficientNet-B0 wins at **92.5% accuracy, 0.848 recall**, tuned to minimize missed cracks in safety-critical inspection.
+EfficientNet-B0 benchmarked against ResNet50 and DenseNet121 on SDNET2018. Tuned to minimize missed cracks in safety-critical inspection.
 
-`PyTorch` `torchvision` `EfficientNet` `SDNET2018`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Histopathologic Cancer Detection](https://github.com/VenuBandi/histopathologic-cancer-detection)**
-
-Custom CNN vs DenseNet121 on 5,000 H&E tissue patches. DenseNet121 achieves **89% accuracy and ROC-AUC 0.9625**. Full optimizer × scheduler × augmentation grid experiments.
-
-`PyTorch` `torchvision` `DenseNet121` `Kaggle`
-
-</td>
-<td width="50%" valign="top">
-
-**[Silent Signal](https://github.com/VenuBandi/silent-signal)**
-
-Real-time emergency gesture recognition — MediaPipe keypoints + Motion BiLSTM on a custom-recorded 9-class dataset. Danger F1 = 0.91, **2,563 FPS inference**.
-
-`PyTorch` `MediaPipe` `LSTM` `OpenCV`
+`PyTorch` `EfficientNet` `torchvision` `SDNET2018`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[Gaming Stock Prediction](https://github.com/VenuBandi/gaming-stock-prediction)**
+### [Silent Signal](https://github.com/VenuBandi/silent-signal)
+**Danger F1 = 0.91 · 2,563 FPS · 9 gesture classes**
 
-Apache Spark GBT pipeline predicting next-day close prices for 22 gaming stocks across **334,405 rows**. Test R² = 0.9629. Predictions stored in MongoDB; Gradio dashboard for live exploration.
+Emergency gesture recognition — MediaPipe keypoints + Motion BiLSTM. When speaking freely is dangerous, gestures become the message.
 
-`PySpark` `Spark ML` `MongoDB` `Gradio` `yfinance`
+`PyTorch` `MediaPipe` `BiLSTM` `OpenCV`
 
 </td>
 <td width="50%" valign="top">
 
-**[FlightOps AI](https://github.com/VenuBandi/flightops-ai)**
+### [Histopathologic Cancer Detection](https://github.com/VenuBandi/histopathologic-cancer-detection)
+**ROC-AUC 0.9625 · 89% accuracy**
 
-Real-time flight delay recovery decision support for airline operations. R7 ensemble (LGB + Neural) — **MAE 8.3 min, 0.15 ms CoreML inference**. 22 AI models across 7 providers.
+Custom CNN vs DenseNet121 on H&E tissue patches. Full optimizer × scheduler grid experiments on 5,000 images.
 
-`Python` `LightGBM` `CoreML` `FastAPI` `Supabase`
+`PyTorch` `DenseNet121` `torchvision` `Kaggle`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[Keypoints Spidy Vision](https://github.com/VenuBandi/Keypoints_spidy_vision)**
+### [Gaming Stock Prediction](https://github.com/VenuBandi/gaming-stock-prediction)
+**R² = 0.9629 · 334,405 rows · 22 stocks**
 
-Real-time human keypoint detection on NVIDIA Jetson, streamed to a live Flask dashboard. Forms the perception base for the gesture and anomaly detection systems.
+Apache Spark GBT pipeline predicting next-day close prices. Predictions stored in MongoDB; Gradio dashboard for live exploration.
 
-`Python` `OpenCV` `NVIDIA Jetson Inference` `Flask`
+`PySpark` `Spark ML` `MongoDB` `Gradio`
 
 </td>
 <td width="50%" valign="top">
 
-**[Spiderman Anomaly Detection](https://github.com/VenuBandi/spiderman-anomaly-detection)**
+### [Jarvis Assistant](https://github.com/VenuBandi/jarvis-assistant)
+**Always-on · local STT · risk-tier enforcement in code**
 
-Rule-based anomaly detection on NVIDIA Jetson — SSD-Mobilenet-v2 detects forbidden objects and crowd violations, triggering real-time alerts on a live cyberpunk dashboard.
+Personal AI for macOS — hotkey push-to-talk, whisper.cpp, multi-brain routing (Ollama · Claude · Gemini). R3 actions unavailable period.
 
-`Python` `Flask` `OpenCV` `NVIDIA Jetson Inference`
+`FastAPI` `Ollama` `whisper.cpp` `Python`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[Real-Time Gesture Recognition](https://github.com/VenuBandi/real-time-gesture-recognition-system)**
+### [Keypoints Spidy Vision](https://github.com/VenuBandi/Keypoints_spidy_vision)
+**Real-time · NVIDIA Jetson · Edge AI**
 
-V1 prototype: 2-class (HELP / DANGER) gesture LSTM on MediaPipe hand keypoints. **~1,979 FPS inference.** Predecessor to Silent Signal — extended to 9 classes and full-body keypoints.
+Human keypoint detection on-device, streamed to a live Flask dashboard. Perception base for gesture and anomaly detection systems.
 
-`PyTorch` `MediaPipe` `LSTM` `OpenCV`
+`OpenCV` `Jetson Inference` `Flask` `Python`
 
 </td>
-<td width="50%" valign="top" style="vertical-align: top;">
+<td width="50%" valign="top">
 
-**[Jarvis Assistant](https://github.com/VenuBandi/jarvis-assistant)**
+### [Spiderman Anomaly Detection](https://github.com/VenuBandi/spiderman-anomaly-detection)
+**Rule engine · live alerts · Jetson edge AI**
 
-Always-on personal AI for macOS. Hotkey → local whisper.cpp STT → multi-brain routing (Ollama · Claude · Gemini Flash) → spoken reply. Every action classified by risk tier and enforced in code.
+SSD-Mobilenet-v2 detects forbidden objects and crowd violations, triggering real-time alerts on a live cyberpunk monitoring dashboard.
 
-`Python` `FastAPI` `Ollama` `whisper.cpp` `MediaPipe`
+`OpenCV` `Jetson Inference` `Flask` `Python`
 
 </td>
 </tr>
@@ -120,20 +116,28 @@ Always-on personal AI for macOS. Hotkey → local whisper.cpp STT → multi-brai
 
 ---
 
+## Stack
+
 <div align="center">
 
-**Languages & Tools**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+</div>
 
-<br>
+---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=VenuBandi&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VenuBandi&layout=compact&theme=dark&hide_border=true)
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=VenuBandi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+<img height="160" src="https://github-readme-streak-stats.herokuapp.com?user=VenuBandi&theme=tokyonight&hide_border=true"/>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=VenuBandi&theme=tokyo-night&hide_border=true&area=true"/>
 
 </div>
