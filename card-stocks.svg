@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<g transform="translate(360,14)">
+<rect width="80" height="64" fill="#0a1408" rx="6"/>
+<line x1="16" y1="20" x2="16" y2="48" stroke="#3fb950" stroke-width=".8"/>
+<rect x="13" y="26" width="6" height="16" fill="#3fb950" rx="1"/>
+<line x1="28" y1="16" x2="28" y2="44" stroke="#f85149" stroke-width=".8"/>
+<rect x="25" y="22" width="6" height="18" fill="#f85149" rx="1"/>
+<line x1="40" y1="18" x2="40" y2="42" stroke="#3fb950" stroke-width=".8"/>
+<rect x="37" y="22" width="6" height="14" fill="#3fb950" rx="1"/>
+<line x1="52" y1="12" x2="52" y2="38" stroke="#3fb950" stroke-width=".8"/>
+<rect x="49" y="16" width="6" height="16" fill="#3fb950" rx="1"/>
+<line x1="64" y1="14" x2="64" y2="36" stroke="#3fb950" stroke-width=".8"/>
+<rect x="61" y="16" width="6" height="12" fill="#3fb950" rx="1"/>
+<polyline points="16,34 28,30 40,26 52,20 64,18" stroke="#d29922" stroke-width="1.2" fill="none" stroke-dasharray="2 1" opacity=".8"/>
+<text x="6" y="60" fill="#3fb950" font-size="8" font-family="monospace" font-weight="600">R2 0.9629</text>
+</g>
+<text x="16" y="29" fill="#7d8590" font-size="11.5" font-family="ui-monospace,'SF Mono',monospace">□ VenuBandi / gaming-stock-prediction</text>
+<text x="16" y="62" fill="#e6edf3" font-size="20" font-family="'Segoe UI',system-ui,sans-serif" font-weight="700">Gaming Stocks</text>
+<text x="16" y="82" fill="#7d8590" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif">Apache Spark GBT across 334,405 rows, 22 gaming stocks.</text>
+<text x="16" y="99" fill="#7d8590" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif">R² = 0.9629. MongoDB storage + live Gradio dashboard.</text>
+<rect x="16" y="115" width="92" height="19" rx="9.5" fill="#0d2714" stroke="#1a4a24" stroke-width=".9"/><text x="62" y="128.5" text-anchor="middle" fill="#3fb950" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">R² = 0.9629</text>
+<rect x="115.5" y="115" width="78" height="19" rx="9.5" fill="#0d2340" stroke="#1f4a7a" stroke-width=".9"/><text x="155" y="128.5" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">334k rows</text>
+<rect x="202.0" y="115" width="78" height="19" rx="9.5" fill="#2d1f05" stroke="#5a3e0a" stroke-width=".9"/><text x="241" y="128.5" text-anchor="middle" fill="#d29922" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">22 stocks</text>
+<line x1="16" y1="194" x2="444" y2="194" stroke="#30363d" stroke-width="1"/>
+<circle cx="22" cy="218" r="5" fill="#3b82f6"/>
+<text x="32" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif">Python</text>
+<text x="69.8" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · PySpark</text>
+<text x="132.8" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · Spark ML</text>
+<text x="202.10000000000002" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · MongoDB</text>
+<text x="265.1" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · Gradio</text>
+<text x="444" y="222" text-anchor="end" fill="#2dd4bf" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">view repo →</text>
+</svg>
