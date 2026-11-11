@@ -4,132 +4,68 @@
 
 # Venu Bandi
 
-[![GitHub followers](https://img.shields.io/github/followers/VenuBandi?style=social)](https://github.com/VenuBandi)
-[![Profile views](https://komarev.com/ghpvc/?username=VenuBandi&color=3B82F6&style=flat)](https://github.com/VenuBandi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/venubandi1)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VenuBandi)
+[![Live Map](https://img.shields.io/badge/Live%20Project-CDC%20Map-brightgreen?style=for-the-badge)](https://venubandi.github.io/cdc-chronic-health-risk/)
+[![Profile views](https://komarev.com/ghpvc/?username=VenuBandi&color=3B82F6&style=for-the-badge&label=VIEWS)](https://github.com/VenuBandi)
 
 </div>
 
 ---
 
-## Currently Building
+## About Me
 
-**[FlightOps AI](https://github.com/VenuBandi/flightops-ai)** — Real-time flight delay recovery decision support for airline operations.
-
-> R7 ensemble (LGB + Neural): **MAE 8.3 min · 0.15 ms CoreML inference** · 22 AI models across 7 providers · F9, UA, WN · 2023–2025 BTS data · Conformal prediction intervals · iOS app
-
----
-
-## Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [CDC Chronic Health Risk Model](https://github.com/VenuBandi/cdc-chronic-health-risk)
-**R² 0.86 – 0.98 across 10 diseases · 73,000+ census tracts**
-
-Predicts chronic disease rates from CDC PLACES 2024. Phase 2 compresses 10 predictions into a single Chronic Health Risk Index via PyTorch neural network.
-
-**→ [Live Interactive Map](https://venubandi.github.io/cdc-chronic-health-risk/)**
-
-`PyTorch` `scikit-learn` `Folium` `CDC PLACES 2024`
-
-</td>
-<td width="50%" valign="top">
-
-### [Structural Crack Detection](https://github.com/VenuBandi/structural-crack-detection)
-**92.5% accuracy · 0.848 recall · 56,092 images**
-
-EfficientNet-B0 benchmarked against ResNet50 and DenseNet121 on SDNET2018. Tuned to minimize missed cracks in safety-critical inspection.
-
-`PyTorch` `EfficientNet` `torchvision` `SDNET2018`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Silent Signal](https://github.com/VenuBandi/silent-signal)
-**Danger F1 = 0.91 · 2,563 FPS · 9 gesture classes**
-
-Emergency gesture recognition — MediaPipe keypoints + Motion BiLSTM. When speaking freely is dangerous, gestures become the message.
-
-`PyTorch` `MediaPipe` `BiLSTM` `OpenCV`
-
-</td>
-<td width="50%" valign="top">
-
-### [Histopathologic Cancer Detection](https://github.com/VenuBandi/histopathologic-cancer-detection)
-**ROC-AUC 0.9625 · 89% accuracy**
-
-Custom CNN vs DenseNet121 on H&E tissue patches. Full optimizer × scheduler grid experiments on 5,000 images.
-
-`PyTorch` `DenseNet121` `torchvision` `Kaggle`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Gaming Stock Prediction](https://github.com/VenuBandi/gaming-stock-prediction)
-**R² = 0.9629 · 334,405 rows · 22 stocks**
-
-Apache Spark GBT pipeline predicting next-day close prices. Predictions stored in MongoDB; Gradio dashboard for live exploration.
-
-`PySpark` `Spark ML` `MongoDB` `Gradio`
-
-</td>
-<td width="50%" valign="top">
-
-### [Jarvis Assistant](https://github.com/VenuBandi/jarvis-assistant)
-**Always-on · local STT · risk-tier enforcement in code**
-
-Personal AI for macOS — hotkey push-to-talk, whisper.cpp, multi-brain routing (Ollama · Claude · Gemini). R3 actions unavailable period.
-
-`FastAPI` `Ollama` `whisper.cpp` `Python`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Keypoints Spidy Vision](https://github.com/VenuBandi/Keypoints_spidy_vision)
-**Real-time · NVIDIA Jetson · Edge AI**
-
-Human keypoint detection on-device, streamed to a live Flask dashboard. Perception base for gesture and anomaly detection systems.
-
-`OpenCV` `Jetson Inference` `Flask` `Python`
-
-</td>
-<td width="50%" valign="top">
-
-### [Spiderman Anomaly Detection](https://github.com/VenuBandi/spiderman-anomaly-detection)
-**Rule engine · live alerts · Jetson edge AI**
-
-SSD-Mobilenet-v2 detects forbidden objects and crowd violations, triggering real-time alerts on a live cyberpunk monitoring dashboard.
-
-`OpenCV` `Jetson Inference` `Flask` `Python`
-
-</td>
-</tr>
-</table>
+```python
+venu = {
+    "currently_building" : "FlightOps AI — real-time flight delay recovery, MAE 8.3 min, 0.15ms CoreML",
+    "open_to"            : ["ML Engineer", "Data Scientist", "AI/ML Intern", "Research Collaboration"],
+    "learning"           : ["Conformal Prediction", "CoreML", "SwiftUI", "On-device AI"],
+    "ask_me_about"       : ["PyTorch", "PySpark", "Edge AI", "Healthcare ML", "NVIDIA Jetson"],
+    "fun_fact"           : "Built an AI that listens, routes, and acts — with a risk tier enforced in code"
+}
+```
 
 ---
 
-## Stack
+## Tech Stack
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+[![My Skills](https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,docker,fastapi,mongodb,git,linux,swift&theme=dark)](https://skillicons.dev)
+
+| Domain | Tools |
+|:--|:--|
+| **ML / DL** | PyTorch · scikit-learn · LightGBM · XGBoost · Hugging Face |
+| **Big Data** | Apache Spark · PySpark · Spark ML · MongoDB |
+| **Computer Vision** | OpenCV · MediaPipe · torchvision · NVIDIA Jetson Inference |
+| **AI / LLMs** | Ollama · FastAPI · Claude API · Gemini · Whisper |
+| **Deployment** | CoreML · Docker · GitHub Actions · Supabase |
 
 </div>
 
 ---
+
+## Featured Projects
+
+<div align="center">
+
+[![CDC](https://github-readme-stats.vercel.app/api/pin/?username=VenuBandi&repo=cdc-chronic-health-risk&theme=tokyonight&hide_border=true&show_owner=false)](https://github.com/VenuBandi/cdc-chronic-health-risk)
+[![FlightOps](https://github-readme-stats.vercel.app/api/pin/?username=VenuBandi&repo=flightops-ai&theme=tokyonight&hide_border=true&show_owner=false)](https://github.com/VenuBandi/flightops-ai)
+
+[![Crack Detection](https://github-readme-stats.vercel.app/api/pin/?username=VenuBandi&repo=structural-crack-detection&theme=tokyonight&hide_border=true&show_owner=false)](https://github.com/VenuBandi/structural-crack-detection)
+[![Silent Signal](https://github-readme-stats.vercel.app/api/pin/?username=VenuBandi&repo=silent-signal&theme=tokyonight&hide_border=true&show_owner=false)](https://github.com/VenuBandi/silent-signal)
+
+[![Cancer Detection](https://github-readme-stats.vercel.app/api/pin/?username=VenuBandi&repo=histopathologic-cancer-detection&theme=tokyonight&hide_border=true&show_owner=false)](https://github.com/VenuBandi/histopathologic-cancer-detection)
+[![Gaming Stocks](https://github-readme-stats.vercel.app/api/pin/?username=VenuBandi&repo=gaming-stock-prediction&theme=tokyonight&hide_border=true&show_owner=false)](https://github.com/VenuBandi/gaming-stock-prediction)
+
+[![Jarvis](https://github-readme-stats.vercel.app/api/pin/?username=VenuBandi&repo=jarvis-assistant&theme=tokyonight&hide_border=true&show_owner=false)](https://github.com/VenuBandi/jarvis-assistant)
+[![Spiderman Anomaly](https://github-readme-stats.vercel.app/api/pin/?username=VenuBandi&repo=spiderman-anomaly-detection&theme=tokyonight&hide_border=true&show_owner=false)](https://github.com/VenuBandi/spiderman-anomaly-detection)
+
+</div>
+
+---
+
+## GitHub Stats
 
 <div align="center">
 
@@ -139,5 +75,15 @@ SSD-Mobilenet-v2 detects forbidden objects and crowd violations, triggering real
 <br><br>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=VenuBandi&theme=tokyo-night&hide_border=true&area=true"/>
+
+</div>
+
+---
+
+<div align="center">
+
+*Open to ML Engineer · Data Scientist · AI/ML roles and research collaborations*
+
+[![LinkedIn](https://img.shields.io/badge/Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/venubandi1)
 
 </div>
