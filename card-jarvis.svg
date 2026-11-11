@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240">
+<rect width="460" height="240" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<g transform="translate(360,14)">
+<rect width="80" height="64" fill="#080a14" rx="6"/>
+<circle cx="16" cy="20" r="3.5" fill="#1a2a50" stroke="#3b82f6" stroke-width="1"/>
+<circle cx="16" cy="34" r="3.5" fill="#1a2a50" stroke="#3b82f6" stroke-width="1"/>
+<circle cx="16" cy="48" r="3.5" fill="#1a2a50" stroke="#3b82f6" stroke-width="1"/>
+<circle cx="40" cy="14" r="3.5" fill="#1a3050" stroke="#58a6ff" stroke-width="1"/>
+<circle cx="40" cy="28" r="3.5" fill="#1a3050" stroke="#58a6ff" stroke-width="1"/>
+<circle cx="40" cy="42" r="3.5" fill="#1a3050" stroke="#58a6ff" stroke-width="1"/>
+<circle cx="40" cy="56" r="3.5" fill="#1a3050" stroke="#58a6ff" stroke-width="1"/>
+<circle cx="64" cy="28" r="4" fill="#0a2050" stroke="#2dd4bf" stroke-width="1.2"/>
+<circle cx="64" cy="46" r="4" fill="#0a2050" stroke="#2dd4bf" stroke-width="1.2"/>
+<line x1="20" y1="20" x2="37" y2="14" stroke="#3b82f6" stroke-width=".5" opacity=".5"/>
+<line x1="20" y1="20" x2="37" y2="28" stroke="#3b82f6" stroke-width=".5" opacity=".5"/>
+<line x1="20" y1="34" x2="37" y2="28" stroke="#3b82f6" stroke-width=".5" opacity=".5"/>
+<line x1="20" y1="34" x2="37" y2="42" stroke="#3b82f6" stroke-width=".5" opacity=".5"/>
+<line x1="20" y1="48" x2="37" y2="42" stroke="#3b82f6" stroke-width=".5" opacity=".5"/>
+<line x1="20" y1="48" x2="37" y2="56" stroke="#3b82f6" stroke-width=".5" opacity=".5"/>
+<line x1="44" y1="14" x2="60" y2="28" stroke="#2dd4bf" stroke-width=".5" opacity=".5"/>
+<line x1="44" y1="28" x2="60" y2="28" stroke="#2dd4bf" stroke-width=".5" opacity=".5"/>
+<line x1="44" y1="42" x2="60" y2="46" stroke="#2dd4bf" stroke-width=".5" opacity=".5"/>
+<line x1="44" y1="56" x2="60" y2="46" stroke="#2dd4bf" stroke-width=".5" opacity=".5"/>
+</g>
+<text x="16" y="29" fill="#7d8590" font-size="11.5" font-family="ui-monospace,'SF Mono',monospace">□ VenuBandi / jarvis-assistant</text>
+<text x="16" y="62" fill="#e6edf3" font-size="20" font-family="'Segoe UI',system-ui,sans-serif" font-weight="700">Jarvis Assistant</text>
+<text x="16" y="82" fill="#7d8590" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif">Always-on macOS AI: hotkey → whisper.cpp STT → multi-brain</text>
+<text x="16" y="99" fill="#7d8590" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif">routing (Ollama · Claude · Gemini). Risk tier in code.</text>
+<rect x="16" y="115" width="92" height="19" rx="9.5" fill="#0d2340" stroke="#1f4a7a" stroke-width=".9"/><text x="62" y="128.5" text-anchor="middle" fill="#58a6ff" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">multi-brain</text>
+<rect x="115.5" y="115" width="92" height="19" rx="9.5" fill="#1f1133" stroke="#3d2466" stroke-width=".9"/><text x="161" y="128.5" text-anchor="middle" fill="#a371f7" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">risk-tiered</text>
+<rect x="215.0" y="115" width="78" height="19" rx="9.5" fill="#062428" stroke="#0e4a50" stroke-width=".9"/><text x="254" y="128.5" text-anchor="middle" fill="#39c5cf" font-size="11" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">local STT</text>
+<line x1="16" y1="194" x2="444" y2="194" stroke="#30363d" stroke-width="1"/>
+<circle cx="22" cy="218" r="5" fill="#3b82f6"/>
+<text x="32" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif">Python</text>
+<text x="69.8" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · FastAPI</text>
+<text x="132.8" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · Ollama</text>
+<text x="189.5" y="222" fill="#7d8590" font-size="11.5" font-family="'Segoe UI',system-ui,sans-serif"> · whisper.cpp</text>
+<text x="444" y="222" text-anchor="end" fill="#2dd4bf" font-size="12.5" font-family="'Segoe UI',system-ui,sans-serif" font-weight="500">view repo →</text>
+</svg>
