@@ -55,100 +55,18 @@ R7 ensemble · LGB + Neural · Conformal prediction intervals · iOS app
 
 ---
 
-## Projects
+## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [CDC Chronic Health Risk](https://github.com/VenuBandi/cdc-chronic-health-risk)
-**R² 0.86–0.98 across 10 diseases · 73,000+ census tracts**
-
-Predicts chronic disease rates from CDC PLACES 2024. Phase 2 compresses 10 predictions into a single Chronic Health Risk Index via PyTorch neural network.
-
-**→ [Live Interactive Map](https://venubandi.github.io/cdc-chronic-health-risk/)**
-
-`PyTorch` `scikit-learn` `Folium` `CDC PLACES 2024`
-
-</td>
-<td width="50%" valign="top">
-
-### [Structural Crack Detection](https://github.com/VenuBandi/structural-crack-detection)
-**92.5% accuracy · 0.848 recall · 56,092 images**
-
-EfficientNet-B0 benchmarked against ResNet50 and DenseNet121 on SDNET2018. Tuned to minimize missed cracks in safety-critical inspection.
-
-`PyTorch` `EfficientNet` `torchvision` `SDNET2018`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Silent Signal](https://github.com/VenuBandi/silent-signal)
-**Danger F1 = 0.91 · 2,563 FPS · 9 gesture classes**
-
-Emergency gesture recognition — MediaPipe keypoints + Motion BiLSTM. When speaking freely is dangerous, gestures become the message.
-
-`PyTorch` `MediaPipe` `BiLSTM` `OpenCV`
-
-</td>
-<td width="50%" valign="top">
-
-### [Histopathologic Cancer Detection](https://github.com/VenuBandi/histopathologic-cancer-detection)
-**ROC-AUC 0.9625 · 89% accuracy**
-
-Custom CNN vs DenseNet121 on H&E tissue patches. Full optimizer × scheduler grid experiments on 5,000 images.
-
-`PyTorch` `DenseNet121` `torchvision` `Kaggle`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Gaming Stock Prediction](https://github.com/VenuBandi/gaming-stock-prediction)
-**R² = 0.9629 · 334,405 rows · 22 stocks**
-
-Apache Spark GBT pipeline predicting next-day close prices. Predictions stored in MongoDB; Gradio dashboard for live exploration.
-
-`PySpark` `Spark ML` `MongoDB` `Gradio`
-
-</td>
-<td width="50%" valign="top">
-
-### [Jarvis Assistant](https://github.com/VenuBandi/jarvis-assistant)
-**Always-on · local STT · risk-tier enforcement in code**
-
-Personal AI for macOS — hotkey push-to-talk, whisper.cpp, multi-brain routing (Ollama · Claude · Gemini). R3 actions unavailable period.
-
-`FastAPI` `Ollama` `whisper.cpp` `Python`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Keypoints Spidy Vision](https://github.com/VenuBandi/Keypoints_spidy_vision)
-**Real-time · NVIDIA Jetson · Edge AI**
-
-Human keypoint detection on-device, streamed to a live Flask dashboard. Perception base for gesture and anomaly detection systems.
-
-`OpenCV` `Jetson Inference` `Flask` `Python`
-
-</td>
-<td width="50%" valign="top">
-
-### [Spiderman Anomaly Detection](https://github.com/VenuBandi/spiderman-anomaly-detection)
-**Rule engine · live alerts · Jetson edge AI**
-
-SSD-Mobilenet-v2 detects forbidden objects and crowd violations, triggering real-time alerts on a live cyberpunk monitoring dashboard.
-
-`OpenCV` `Jetson Inference` `Flask` `Python`
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/VenuBandi/flightops-ai"><img src="./card-flightops.svg" width="49%" alt="FlightOps AI — real-time flight delay recovery, MAE 8.3 min, CoreML 0.15ms"/></a>
+  <a href="https://venubandi.github.io/cdc-chronic-health-risk/"><img src="./card-cdc.svg" width="49%" alt="CDC Chronic Health Risk — R² 0.86-0.98 across 73k census tracts"/></a>
+  <a href="https://github.com/VenuBandi/structural-crack-detection"><img src="./card-crack.svg" width="49%" alt="Structural Crack Detection — 92.5% accuracy, 0.848 recall, EfficientNet-B0"/></a>
+  <a href="https://github.com/VenuBandi/silent-signal"><img src="./card-silent.svg" width="49%" alt="Silent Signal — emergency gesture recognition, Danger F1 0.91, 2563 FPS"/></a>
+  <a href="https://github.com/VenuBandi/histopathologic-cancer-detection"><img src="./card-cancer.svg" width="49%" alt="Histopathologic Cancer Detection — ROC-AUC 0.9625, DenseNet121"/></a>
+  <a href="https://github.com/VenuBandi/gaming-stock-prediction"><img src="./card-stocks.svg" width="49%" alt="Gaming Stock Prediction — R² 0.9629, 334k rows, PySpark GBT"/></a>
+  <a href="https://github.com/VenuBandi/jarvis-assistant"><img src="./card-jarvis.svg" width="49%" alt="Jarvis Assistant — always-on macOS AI, multi-brain routing, risk-tiered"/></a>
+  <a href="https://github.com/VenuBandi/spiderman-anomaly-detection"><img src="./card-anomaly.svg" width="49%" alt="W.E.B Anomaly Detection — SSD-Mobilenet-v2 on Jetson, live alerts"/></a>
+</p>
 
 ---
 
